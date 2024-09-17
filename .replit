@@ -1,0 +1,6 @@
+run = "cowsay Configure me!"
+entrypoint = "README.md"
+modules = ["dotnet-7.0", "gcloud", "web"]
+
+[nix]
+channel = "stable-24_05"
